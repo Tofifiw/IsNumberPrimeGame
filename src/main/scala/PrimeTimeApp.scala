@@ -3,8 +3,7 @@ import scala.util.Random
 import MathExtensions._
 
 object PrimeTimeApp extends App {
-
-  // define constants and variables
+  
   val minAnswer: Int = 201
   val maxAnswer: Int = 300
   var reply: Unit = "?"
@@ -13,8 +12,6 @@ object PrimeTimeApp extends App {
 
   var primeList = makePrimeListBuffer(minAnswer, maxAnswer)
   println(primeList)
-
-  // loop
 
   do {
 
@@ -38,9 +35,6 @@ object PrimeTimeApp extends App {
     }
 
 
-
-    // show the correct answer
-
     /*val isPrime = primeList.contains(answer)
 
     if (isPrime) {
@@ -52,5 +46,5 @@ object PrimeTimeApp extends App {
       println(s" $answer is not prime")
     }*/
 
-  } while (reply != "Y")
+  } while (reply != "X")
 }
