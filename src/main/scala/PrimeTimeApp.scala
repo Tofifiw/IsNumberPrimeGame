@@ -5,10 +5,10 @@ import MathExtensions._
 object PrimeTimeApp extends App {
   
   val minAnswer: Int = 201
-  val maxAnswer: Int = 300
+  val maxAnswer: Int = 499
   var reply: Unit = "?"
 
-  // generate a list of prime numbers from 200 to 500
+  // generate a list of prime numbers from 201 to 499
 
   var primeList = makePrimeListBuffer(minAnswer, maxAnswer)
   println(primeList)
