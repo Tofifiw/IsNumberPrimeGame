@@ -46,5 +46,5 @@ object PrimeTimeApp extends App {
       println(s" $answer is not prime")
     }*/
 
-  } while (reply != "X")
+  } while (true)
 }
